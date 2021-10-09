@@ -1,0 +1,63 @@
+body{
+    background-color: black;
+    text-align: center;
+}
+/* ========================================================================================== */
+/* Titulo */
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+/* ========================================================================================== */
+/* tabuleiro */
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: solid 3px gray;
+    display: inline-block;
+}
+
+
+
+/* =========================================================================================== */
+/* jogadores */
+
+.o{
+
+    position: relative;
+
+}
+
+.o:after{
+    position: absolute;
+    content: "\26BD";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+.x{
+
+    position: relative;
+
+}
+
+.x:after{
+    position: absolute;
+    content: "\1F3C0";
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
